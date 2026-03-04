@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pandas
+pyarrow
+fastparquet
+pymongo
+pyspark
+duckdb
+newsapi-python
+nbdime
+jupyter
+python-dotenv
