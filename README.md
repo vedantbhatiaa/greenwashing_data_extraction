@@ -86,19 +86,6 @@ Scrapes the public sustainability pages of 10 FTSE 100 companies using a multi-U
 
 **Pipeline output — scraped claims:**
 
-| Company | Net-Zero Year | Reduction Claimed | Certifications | URLs Successful |
-|---------|--------------|-------------------|----------------|-----------------|
-| BP | 2050 | 20% | CDP, SBTi | 4 |
-| Barclays | 2050 | 15% | CDP, SBTi, TCFD | 7 |
-| Lloyds | 2050 | 50% | CDP, SBTi | 4 |
-| Rio Tinto | 2050 | 15% | SBTi | 4 |
-| GSK | 2030 | 80% | RE100, SBTi, TCFD | 5 |
-| AstraZeneca | 2050 | 30% | CDP, SBTi | 5 |
-| Marks & Spencer | 2050 | 90% | CDP, SBTi | 6 |
-| Vodafone | 2050 | 84% | CDP, SBTi | 3 |
-| National Grid | 2050 | 60% | CDP, SBTi | 3 |
-| Sainsbury's | 2050 | 80% | CDP, SBTi | 7 |
-
 ![Web Scraping Output](images/web_scrap.jpg)
 
 ---
@@ -136,7 +123,6 @@ Fetches a peer-reviewed CO2 dataset from GitHub. Filtered to UK-only records fro
 | 2016 | 399.43 | 6.06 | −5.5% |
 | 2015 | 422.46 | 6.46 | — |
 
-![OWID Dataset](images/owid.jpg)
 
 ---
 
