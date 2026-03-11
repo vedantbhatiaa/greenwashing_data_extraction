@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="company_id" type="string" />
+      <attribute id="2" title="net_zero_year" type="string" />
+      <attribute id="3" title="reduction_pct" type="string" />
+    </attributes>
+    <nodes>
+      <node id="BP" label="BP">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="BP" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="37.0" />
+        </attvalues>
+      </node>
+      <node id="Energy" label="Energy">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="CDP" label="CDP">
+        <attvalues>
+          <attvalue for="0" value="certification" />
+        </attvalues>
+      </node>
+      <node id="SBTi" label="SBTi">
+        <attvalues>
+          <attvalue for="0" value="certification" />
+        </attvalues>
+      </node>
+      <node id="Barclays" label="Barclays">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="BARC" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="15.0" />
+        </attvalues>
+      </node>
+      <node id="Finance" label="Finance">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="TCFD" label="TCFD">
+        <attvalues>
+          <attvalue for="0" value="certification" />
+        </attvalues>
+      </node>
+      <node id="Lloyds" label="Lloyds">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="LLOY" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="50.0" />
+        </attvalues>
+      </node>
+      <node id="Rio Tinto" label="Rio Tinto">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="RIO" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="15.0" />
+        </attvalues>
+      </node>
+      <node id="Mining" label="Mining">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="GSK" label="GSK">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="GSK" />
+          <attvalue for="2" value="2030" />
+          <attvalue for="3" value="80.0" />
+        </attvalues>
+      </node>
+      <node id="Healthcare" label="Healthcare">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="RE100" label="RE100">
+        <attvalues>
+          <attvalue for="0" value="certification" />
+        </attvalues>
+      </node>
+      <node id="AstraZeneca" label="AstraZeneca">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="AZN" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="90.0" />
+        </attvalues>
+      </node>
+      <node id="Marks &amp; Spencer" label="Marks &amp; Spencer">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="MKS" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="90.0" />
+        </attvalues>
+      </node>
+      <node id="Retail" label="Retail">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="Vodafone" label="Vodafone">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="VOD" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="84.0" />
+        </attvalues>
+      </node>
+      <node id="Telecom" label="Telecom">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="National Grid" label="National Grid">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="NATG" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="60.0" />
+        </attvalues>
+      </node>
+      <node id="Utilities" label="Utilities">
+        <attvalues>
+          <attvalue for="0" value="sector" />
+        </attvalues>
+      </node>
+      <node id="Sainsburys" label="Sainsburys">
+        <attvalues>
+          <attvalue for="0" value="company" />
+          <attvalue for="1" value="SBRY" />
+          <attvalue for="2" value="2050" />
+          <attvalue for="3" value="90.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="BP" target="Energy" id="0">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="BP" target="CDP" id="1">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="BP" target="SBTi" id="2">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Barclays" target="Finance" id="3">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Barclays" target="CDP" id="4">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Barclays" target="SBTi" id="5">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Barclays" target="TCFD" id="6">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Lloyds" target="Finance" id="7">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Lloyds" target="CDP" id="8">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Lloyds" target="SBTi" id="9">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Rio Tinto" target="Mining" id="10">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Rio Tinto" target="SBTi" id="11">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="GSK" target="Healthcare" id="12">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="GSK" target="RE100" id="13">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="GSK" target="SBTi" id="14">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="GSK" target="TCFD" id="15">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="AstraZeneca" target="Healthcare" id="16">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="AstraZeneca" target="CDP" id="17">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="AstraZeneca" target="SBTi" id="18">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Marks &amp; Spencer" target="Retail" id="19">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Marks &amp; Spencer" target="CDP" id="20">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Marks &amp; Spencer" target="SBTi" id="21">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Vodafone" target="Telecom" id="22">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Vodafone" target="CDP" id="23">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Vodafone" target="SBTi" id="24">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="National Grid" target="Utilities" id="25">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="National Grid" target="CDP" id="26">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="National Grid" target="SBTi" id="27">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Sainsburys" target="Retail" id="28">
+        <attvalues>
+          <attvalue for="4" value="operates_in" />
+        </attvalues>
+      </edge>
+      <edge source="Sainsburys" target="CDP" id="29">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+      <edge source="Sainsburys" target="SBTi" id="30">
+        <attvalues>
+          <attvalue for="4" value="certified_by" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
