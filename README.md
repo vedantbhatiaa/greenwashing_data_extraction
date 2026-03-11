@@ -153,16 +153,6 @@ All 10 companies in this pipeline hold at least one third-party certification (C
 
 **Spark SQL — Sector-level risk analysis:**
 
-| Sector | Companies | Avg Reduction Claimed | Avg Risk Score | Total Media Signals |
-|--------|-----------|----------------------|----------------|---------------------|
-| Telecom | 1 | 84% | 1.0 | 84 |
-| Energy | 1 | 20% | 1.0 | 125 |
-| Healthcare | 2 | 55% | 1.0 | 153 |
-| Mining | 1 | 15% | 1.0 | 82 |
-| Finance | 2 | 32.5% | 1.0 | 211 |
-| Utilities | 1 | 60% | 1.0 | 101 |
-| Retail | 2 | 85% | 1.0 | 150 |
-
 ![Spark SQL Analysis](images/spark_sql_analysis.jpg)
 
 ---
@@ -172,19 +162,6 @@ All 10 companies in this pipeline hold at least one third-party certification (C
 Reads all Parquet files directly (no loading step) and runs fast in-process analytical SQL. Produces 7 analytical outputs including risk rankings, sector breakdowns, and company claims vs UK national CO2 reality checks.
 
 **Risk ranking output (all companies):**
-
-| Company | Sector | Reduction Claimed | Certifications | Risk Score | Risk Category |
-|---------|--------|------------------|----------------|------------|---------------|
-| BP | Energy | 20% | CDP, SBTi | 1 | LOW |
-| Barclays | Finance | 15% | CDP, SBTi, TCFD | 1 | LOW |
-| Lloyds | Finance | 50% | CDP, SBTi | 1 | LOW |
-| Rio Tinto | Mining | 15% | SBTi | 1 | LOW |
-| GSK | Healthcare | 80% | RE100, SBTi, TCFD | 1 | LOW |
-| AstraZeneca | Healthcare | 30% | CDP, SBTi | 1 | LOW |
-| Marks & Spencer | Retail | 90% | CDP, SBTi | 1 | LOW |
-| Vodafone | Telecom | 84% | CDP, SBTi | 1 | LOW |
-| National Grid | Utilities | 60% | CDP, SBTi | 1 | LOW |
-| Sainsbury's | Retail | 80% | CDP, SBTi | 1 | LOW |
 
 ![DuckDB Warehouse](images/duckdb_warehouse.jpg)
 
