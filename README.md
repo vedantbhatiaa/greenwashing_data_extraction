@@ -306,7 +306,7 @@ Open `main.ipynb` in VS Code or Jupyter and run all cells top to bottom.
 ### 7. Launch the dashboard
 
 ```bash
-streamlit run dashboard.py
+python -m streamlit run dashboard.py
 ```
 
 ---
