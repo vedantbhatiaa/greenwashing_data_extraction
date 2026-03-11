@@ -1,0 +1,37 @@
+# Install with: pip install -r requirements.txt
+
+# Data collection 
+requests
+beautifulsoup4
+
+# Data processing & storage 
+pandas
+pyarrow
+fastparquet
+
+# Databases 
+pymongo
+duckdb
+
+# Distributed processing 
+pyspark
+
+# Graph database
+networkx
+
+# APIs 
+newsapi-python
+
+# Environment
+python-dotenv
+
+# Notebook & Jupyter kernel
+jupyter
+ipykernel
+nbdime
+
+# Dashboard & visualisation 
+streamlit
+plotly
+
+
